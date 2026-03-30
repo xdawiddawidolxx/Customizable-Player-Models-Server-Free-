@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.customskins.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerRendererMixin",
+    "GameRendererMixin"
+  ],
+  "client": [
+    "PlayerRendererMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

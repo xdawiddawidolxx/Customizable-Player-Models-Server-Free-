@@ -1,0 +1,13 @@
+Customizable-Player-Models-Server-Free-/
+├── build.gradle                          (Build configuration)
+├── gradle.properties                     (Project settings)
+├── settings.gradle                       (Gradle settings)
+├── src/main/resources/
+│   ├── fabric.mod.json                   (Mod metadata)
+│   ├── customskins.mixins.json           (Mixin configuration)
+│   └── customskins.aw                    (Access widener)
+└── src/main/java/com/customskins/
+    ├── CustomSkinsModClient.java         (Main mod entry point)
+    ├── config/ConfigManager.java         (Configuration system)
+    ├── skin/SkinLoader.java              (Skin file loader)
+    └── mixin/PlayerRendererMixin.java    (Player rendering hooks)

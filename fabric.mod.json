@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "customskins",
+  "version": "${version}",
+  "name": "Custom Skins Mod",
+  "description": "A mod that allows custom player skins without server permissions",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/customskins/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.customskins.CustomSkinsModClient"
+    ]
+  },
+  "mixins": [
+    "customskins.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
